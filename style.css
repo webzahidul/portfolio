@@ -5,7 +5,7 @@ body{
 h1{
     font-size:50px;
 }
-.name-heighlight{
+.gray-heighlight{
     color:gray;
 }
 .half-width{
@@ -39,4 +39,23 @@ p{
 h3{
 color:aqua;
 }
-
+.dream-area{
+    background-image:url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+.experience-area{
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-time{
+    border-left: 7px solid;
+    border-image: linear-gradient (lightsalmon, tomato);
+    border-image-slice: 1;
+}
